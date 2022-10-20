@@ -1,0 +1,83 @@
+/*https://coolors.co/d8d8f6-b18fcf-978897-494850-2c2c34 */
+/*https://coolors.co/04e762-f5b700-00a1e4-dc0073-89fc00 */
+/*https://coolors.co/f6511d-ffb400-00a6ed-7fb800-0d2c54 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8D8F6;
+}
+
+#theFather {
+    background-color: #D8D8F6;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#header {
+    flex-grow: 1;
+    background-color: #B18FCF;
+    text-align: center;
+    height: 15vh;
+    line-height: 15vh;
+    width: 100vw;
+}
+
+#list {
+    flex-grow: 8;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listItem {
+    background-color: #978897;
+    text-align: center;
+    height: 15vh;
+    line-height: 7vh;
+    width: 60vw;
+    border-radius: 1vh;
+    margin-top: 5vh;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh;
+}
+
+.listItem>button {
+    width: 7vw;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+    border-radius: .5vh;
+}
+
+.edit {
+    background-color: green;
+    color: white;
+    border-radius: .5vh;
+}
+
+#add {
+    background-color: #494850;
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    width: 25vw;
+    border-radius: 1vh;
+    height: 10vh;
+    line-height: 10vh;
+    margin-top: 5vh;
+}
